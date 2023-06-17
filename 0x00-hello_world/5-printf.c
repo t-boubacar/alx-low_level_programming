@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * main - main block
+ * main - entry point
+ * printf
  * return: 0 always (Success)
  */
 int main (void)
