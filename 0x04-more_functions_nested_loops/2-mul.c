@@ -1,11 +1,16 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * main - function that multiplies two integers
- * @a by @b
- * Return: always 0 (Success)
+ * mul - multiplies two integers
+ * @a: int to be multiplied to b
+ * @b: int to be multiplied to a
+ * Return: the result of the operation
  */
 int mul(int a, int b)
 {
-	return (a * b);
+	int c;
+
+	c = a * b;
+
+	return (c);
 }
